@@ -15,7 +15,7 @@ import kotlin.coroutines.CoroutineContext
 class MainActivity : AppCompatActivity()/*,CoroutineScope*/ {
 
 /*
-    override val coroutineContext: CoroutineContext =  Dispatchers.Main + SupervisorJob()
+    override val coroutineContext:  CoroutineContext =  Dispatchers.Main + SupervisorJob()
 */
 
     lateinit var parentJob : Job

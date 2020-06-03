@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity()/*,CoroutineScope*/ {
         super.onCreate(savedInstanceState)
 
 
+
         var handler = CoroutineExceptionHandler { _, exception ->
 
             print("Exception thrown in one of the children {$exception}")

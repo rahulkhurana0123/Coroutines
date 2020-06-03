@@ -13,7 +13,6 @@ class MainViewModel : ViewModel(){
 
 
     init {
-
         viewModelScope.launch {
 
                 getCall()
